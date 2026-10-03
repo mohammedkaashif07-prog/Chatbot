@@ -11,7 +11,7 @@ if "messages" not in st.session_state:
         }
     ]
 
-messages_container = st.container(height=650)
+messages_container = st.container(height=600)
 
 user_prompt = st.chat_input(placeholder="Say somehting....")
 
